@@ -1,0 +1,601 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#pg1{
+    height: 100vh;
+    width: 100%;
+}
+
+#pg1 #part1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: bisque; */
+    
+   
+}
+
+.division{
+    height: 100%;
+    width: 50%;
+}
+
+#fimg{
+    /* background-color: rgb(23, 226, 226); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80);
+    background-size: cover;
+    
+}
+
+#fimgbox img{
+    width: 100%;
+}
+#simg{
+    /* background-color: blueviolet; */
+   
+    background-image: url(https://i.pinimg.com/564x/08/ae/b4/08aeb4d11193149969c517298feca8df.jpg);
+    background-size: cover;
+}
+
+#ovr2{
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#ovr1{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* background-color: rgba(210, 105, 30, 0.575); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ovr1 #nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+#ovr1 #btmnav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+#ovr1 a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Noto sans';
+    font-size: 0.8rem;
+}
+
+#fimgbox{
+    height: 60%;
+    width: 50%;
+    /* background-color: azure; */
+    overflow: hidden;
+}
+
+#simg #para {
+    font-family: 'voyage';
+    font-size: 5rem;
+    color:white;
+}
+
+#simg #para p:last-child{
+    font-size: 2rem;
+}
+
+/*----------------- page2---------- */
+#pg2{
+    height: 170vh;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.897);
+    border-top: 1px solid transparent;
+}
+
+#pg2 #slider{
+    height: 30%;
+    width: 100%;
+    /* background-color: beige; */
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    display: grid;
+    grid-template-columns:  3rem 1fr 1fr 1.5fr 0.35fr;
+    
+}
+
+#slider>p{
+    display: inline-block;
+    width: 8rem;
+    height: 1rem;
+    /* background-color:slateblue ; */
+    transform-origin: 0% 100%;
+    transform: rotate(-90deg);
+    text-align: center;
+    margin-top: 13rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: white;
+   
+}
+
+#sg1{
+    height: 100%;
+    background-color: azure;
+    overflow: hidden;
+}
+
+#sg1 img{
+    width: 100%;
+    transform: translateY(-4rem);
+    filter: brightness(50%);
+}
+#sg2{
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(152, 252, 252);
+}
+#sg2 img{
+    width: 100%;
+    transform: translateY(-20%);
+    filter: brightness(60%);
+
+}
+#sglast{
+    height: 100%;
+    overflow: hidden; 
+    /* background-color: blueviolet; */
+}
+
+#sglast img{
+    opacity: 0.5;
+}
+
+#sgtext{
+    position: relative;
+    height: 100%;
+    color: white;
+    /* background-color: black; */
+}
+
+#sgtext p{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-family: 'noto sans';
+}
+
+
+#author{
+    min-height: 40%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+#author h1{
+    font-family: 'noto sans';
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+#author p{
+    color: white;
+    font-family: 'noto sans';
+    font-size: 0.6rem;
+}
+
+#profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 2rem 0;
+    background-color: aqua;
+    overflow: hidden;
+    filter: brightness(90%);
+}
+
+#profile img{
+    
+    width: 100%;
+}
+
+
+
+/* --------------page3------------- */
+
+#pg3{
+    height:100vh;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+}
+
+#pg3 #first{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+#pg3 #first img{
+    width: 100%;
+    filter: brightness(80%);
+}
+
+#sec1 img{
+    width: 100%;
+}
+#pg3 #second{
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #3F2C20;
+    
+}
+#sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 2rem 0;
+}
+#second #sec1{
+    height: 60%;
+    width: 40%;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+#second>p{
+    font-size: 2.5rem;
+}
+
+#sec1 #secimg{
+    height: 60%;
+    width: 60%;
+    background-color: cadetblue;
+    position: relative;
+    
+}
+
+#second #circle{
+    position: absolute;
+    height: 7rem;
+    width:7rem;
+    background-color: #d8d3d3;
+    border-radius: 50%;
+    bottom: 12%;
+    right: 22%;
+}
+
+#content{
+    position: absolute;
+    bottom: 10%;
+}
+
+#content p{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* --------------page4------------- */
+
+#pg4{
+    height: 100vh;
+    width: 100%;
+    background-color: #d9d9d95b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid transparent;
+    color: #3F2C20;
+}
+
+#pfimg{
+    width: 80%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+#pg4img{
+    height: 75%;
+    width: 30%;
+    background-color: blueviolet;
+    position: absolute;
+    overflow: hidden;
+    filter: brightness(90%);
+}
+#pg4img img{
+    width: 100%;
+}
+
+#pfcrcl{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #af8f8271;
+    position: absolute;
+    left: 25%;
+    top: -8%;
+}
+
+#pfimg>p{
+    display: inline-block;
+    /* background-color: azure; */
+    font-size: 3rem;
+    transform-origin: 0% 100%;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 30%;
+    left: 28%;
+}
+
+#rightpara{
+    font-size: 2rem;
+    text-transform: capitalize;
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ------------page5-------------- */
+#pg5{
+    height: 100vh;
+    width: 100%;
+    background-color: #d9d9d95b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid transparent;
+}
+
+#fifthContent1{
+    height: 100%;
+    width:100%;
+    /* background-color: rgba(250, 235, 215, 0.295); */
+    
+}
+
+#imgbox1{
+    height: 21rem;
+    width:20rem;
+    /* background-color: aqua; */
+    margin-top: 2rem;
+}
+
+#imgbox1 img{
+    width: 100%;
+}
+.contl{
+    display: inline-block;
+}
+
+#cont1 p{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: flex-end;
+    color: #3F2C20;
+    
+}
+#fifthContent2{
+    height: 100%;
+    width:100%;
+    /* background-color: rgb(231, 148, 39); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+    
+}
+
+#cont2{
+    position: relative;
+}
+
+#cont2 #imgbox2{
+    height: 27rem;
+    width: 22rem;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#imgbox2 img{
+    height: 100%;
+}
+
+
+
+#cont2 #crcl{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    border: 2px solid #3F2C20;
+    position: absolute;
+    top: -12%;
+    right: -15%;
+}
+
+#cont3{
+    /* background-color: aliceblue; */
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    color: #3F2C20;
+}
+
+
+
+#cont3 #imgbox3{
+    /* background-color: aqua; */
+    height: 32rem;
+    width: 26rem;
+    margin: 0.8rem 0;
+    overflow: hidden;
+}
+
+#imgbox3 img{
+    width: 100%;
+}
+
+
+#fifthContent3{
+    height: 100%;
+    width:100%;
+    /* background-color: rgb(83, 74, 63); */
+    display: inline-flex;
+    justify-content: flex-end;
+}
+/* -------------page6-------------------- */
+
+#pg6{
+    height: 80vh;
+    width: 100%;
+    background-color: #d9d9d95b;
+    display: flex; 
+    border-top: 1px solid transparent;
+}
+
+#s1,#s2{
+    height: inherit;
+    width: 50%;
+    position: relative;
+}
+
+
+
+#s1 p{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: #3F2C20;
+}
+
+#simgb1{
+    height: 18rem;
+    width: 18rem;
+    /* background-color: aqua; */
+    position: absolute;
+    border-radius: 50%;
+    top: 15%;
+    left: 15%;
+    overflow: hidden;
+}
+#simgb2{
+    height: 18rem;
+    width: 18rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 35%;
+    left: 40%;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+
+#simgb2 img{
+    width: 100%;
+    transform: translate(0,-19%);
+}
+#simgb1 img{
+    width: 100%;
+    transform: translate(0,-19%);
+}
+
+
+#sbox1{
+    height: 18rem;
+    width: 15rem;
+    position: absolute;
+    /* background-color: aquamarine; */
+    top: 5%;
+    left: 40%;
+    overflow: hidden;
+}
+
+#sbox1 img{
+    width: 100%;
+    transform: translateY(-15%);
+}
+#sbox2{
+    height: 22rem;
+    width: 16rem;
+    position: absolute;
+    /* background-color: aquamarine; */
+    top: 30%;
+    right: 0%;
+    overflow: hidden;
+}
+
+#sbox2 img{
+    height: 100%;
+    
+}
+
+#pg7{
+    height: 70vh;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(https://i.pinimg.com/564x/e8/4d/33/e84d3352df6a1674e8e16b6932ce6c70.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ovr3{
+    height: inherit;
+    width: inherit;
+    background-color: #0f0f0f5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#pg7 p{
+    font-size: 8rem;
+}
+
+
+
+
+
