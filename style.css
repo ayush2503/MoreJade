@@ -9,6 +9,16 @@ html,body{
     width: 100%;
 }
 
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: #dadada93;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(97, 97, 97, 0.137);
+    border-radius: 5rem;
+}
+
 #pg1{
     height: 100vh;
     width: 100%;
@@ -140,7 +150,7 @@ html,body{
 
 #sg1{
     height: 100%;
-    background-color: azure;
+    /* background-color: azure; */
     overflow: hidden;
 }
 
@@ -152,7 +162,7 @@ html,body{
 #sg2{
     height: 100%;
     overflow: hidden;
-    background-color: rgb(152, 252, 252);
+    /* background-color: rgb(152, 252, 252); */
 }
 #sg2 img{
     width: 100%;
@@ -216,7 +226,7 @@ html,body{
     width: 300px;
     border-radius: 50%;
     margin: 2rem 0;
-    background-color: aqua;
+    /* background-color: aqua; */
     overflow: hidden;
     filter: brightness(90%);
 }
